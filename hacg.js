@@ -1,0 +1,1 @@
+javascript:if(window.location.pathname=="/share/init"){(function(){document.getElementById("accessCode").value="8酱";document.getElementById("submitBtn").onclick();})();}else{var q=window.getSelection();window.open('http://pan.baidu.com/s/'+q,'_blank');}
