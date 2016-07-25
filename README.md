@@ -1,3 +1,5 @@
 # Spiral-submerged
 
-#乱七八糟的杂物，steamkey是领取的，随意使用。可能有几枚被回收了。
+#乱七八糟的杂物
+
+#新更新一个iss的python爬虫脚本，需要bs4和scrapy库支持

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+_Author = "btjoker"
 import scrapy
 from bs4 import BeautifulSoup
 import json
