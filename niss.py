@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+import os
 import urllib.request
 import json
 
@@ -23,3 +24,5 @@ data = {"configs":[{"server":result1[0],"server_port":int(result2[0]),"password"
 
 with open('gui-config.json', 'wb') as f:
     f.write(json.dumps(data,sort_keys=False,indent=4).encode('utf-8')) 
+
+os.popen('Shadowsocks.exe')
