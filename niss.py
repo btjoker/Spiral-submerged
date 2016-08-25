@@ -4,6 +4,8 @@ import re
 import urllib.request
 import json
 
+_Author = "btjoker"
+
 url = 'http://www.ishadowsocks.org/'
 html = urllib.request.urlopen(url).read()
 soup = html.decode('utf-8', 'ignore')
