@@ -33,5 +33,8 @@ with open(r'D:\pytemp\iss\gui-config.json', 'wb') as f:
     f.write(json.dumps(data,sort_keys=False,indent=4).encode('utf-8')) 
 
 soft = os.path.split(sys.argv[0])[0] +'\\Shadowsocks.exe'
-os.popen(soft)
-print('程序运行正常！')
+if sys.path.exists(soft):
+	os.popen(soft)
+	print('程序运行正常！')
+else:
+	print('未找到小飞机(Shadowsocks)！\n请手动将生成的json文件移动到小飞机根目录下。')
