@@ -1,9 +1,5 @@
 # Spiral-submerged
 
-#乱七八糟的杂物
-
-#新更新一个iss的python爬虫脚本，需要bs4和scrapy库支持
-
-#新更新一个niss为iss的python爬虫脚本的原生库版本，不需要下载的包和库支持
-
-#新更新一个ac文章区列表抓取demo
+# 杂物，一些网站的js和python小脚本
+# 原生库版小飞机账号爬虫，仅供体验。
+# 归属地查询，使用的是老马哥的api
