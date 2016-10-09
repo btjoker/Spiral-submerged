@@ -33,6 +33,7 @@ def download(url):
             with open(dirs + filename, 'wb') as f:
                 f.write(content.read())
                 rcount += 1
+            print('%s done!!!' % filename)
         else:
             ccount += 1
     except:
