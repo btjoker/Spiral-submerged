@@ -11,7 +11,7 @@
 ## gs.py 归属地查询
 使用的是老马哥的api(使用方式为：python gs.py 13xxxxxxxxx 这样的方式，或者运行脚本在input处输入号码)
 
-## getproxy.py 禁止事项获取
+## getproxy.py proxy获取
 直接仿写的，需要lxml支持，默认只读取前五页的地址，可以在loop函数传入页数。抓取后测试成功的写入数据库中。
 
 ## 500l.py 大牛的500行代码系列抓取网页爬虫(测试版)
@@ -23,7 +23,6 @@
 一个1080的创建链接按钮油猴脚本(现在需要登录到该站才能获取)
 
 ## dlf.py 下载文件演示脚本
-使用方式：dlf.py http://www.xxx.com/download/xxx.exe
+演示：dlf.py http://www.xxx.com/download/xxx.exe
 
-## aclist_demo.py 抓取文章列表的
-闲置中……
+
