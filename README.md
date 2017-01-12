@@ -13,8 +13,10 @@
 ## javascript
 * acfix.js(黑科技的js书签备份, 已挂)
 * banana.js(acfun首页香蕉抓取, js书签)
-* hacj.js(神社的js和油猴)
+* hacg.js(hacg度盘跳转和填写js书签)
+* spy.js(A岛大侦探弱鸡版)
 
 ## golang
 * filemanage(自用的文件处理, 有注释)
 * actool(自用的网络工具, 包含代理获取, ua头等)
+* xxoo(煎蛋的妹子图抓取, 依赖于 goquery, 本人的actool包)

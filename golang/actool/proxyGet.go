@@ -5,7 +5,7 @@ import (
     "github.com/PuerkitoBio/goquery"
 )
 
-// 西刺代理获取
+// ProxyList 西刺代理获取
 func ProxyList() []string {
     proxy := make([]string, 101)
     resp, _ := Get("http://www.xicidaili.com/nn/")
@@ -17,5 +17,5 @@ func ProxyList() []string {
         port := s.Find("td").Eq(2).Text()
         proxy[i] = fmt.Sprintf("http://%s:%s", ip, port)
     })
-    return proxy
+    return proxy[1:]
 }

@@ -7,6 +7,8 @@ import (
     "strings"
 )
 
+const author = "btjoker"
+
 // ListDirs 遍历给定路径下的,不包括子目录文件, 后缀如 ".jpg"
 func ListDirs(dirPath string, suffix []string) (files []string, err error) {
     files = make([]string,0,200)

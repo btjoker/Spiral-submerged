@@ -6,6 +6,8 @@ import (
     "net/url"
 )
 
+const author = "btjoker"
+
 // Get 带随机UA的get请求
 func Get(url string) (*http.Response, error) {
     client := new(http.Client)
