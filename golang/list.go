@@ -199,6 +199,21 @@ func (list List) Join(sep string) string {
 	return strings.Join(result, sep)
 }
 
+// ToArray 方法返回一个int数组
+func (list List) ToArray() []int {
+	return []int(list)
+}
+
+// ToString 方法返回字符串形式数组
+func (list List) ToString() string {
+	return "[" + list.Join(",") + "]"
+}
+
+// NewList 方法返回一个List实例
+func NewList(list []int) List {
+	return List(list)
+}
+
 func main() {
 	list := List(rand.Perm(15))
 
@@ -241,6 +256,15 @@ func main() {
 		return i * i
 	})
 
+	link := list.Concat(NewList(rand.Perm(10)).Map(func(i int) int {
+		return i * 3
+	}).Filter(func(i int) bool {
+		if i%9 == 0 {
+			return true
+		}
+		return false
+	}))
+
 	fmt.Println("List: ", list)
 	fmt.Println("Every: ", every)
 	fmt.Println("Some: ", some)
@@ -255,6 +279,9 @@ func main() {
 	fmt.Println("Join: ", list.Join(", "))
 	fmt.Println("Map: ", listMap)
 	fmt.Println("Filter: ", filter)
+	fmt.Println("ToString: ", list.ToString())
+	fmt.Println("ToArray: ", list.ToArray())
+	fmt.Println("link: ", link)
 
 	list.Fill(9)
 	fmt.Println("Fill: ", list)
