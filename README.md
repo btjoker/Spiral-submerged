@@ -15,3 +15,8 @@
 * banana.js(acfun首页香蕉抓取, js书签)
 * hacg.js(hacg度盘跳转和填写js书签)
 * spy.js(A岛大侦探弱鸡版)
+* jyss.js(寂月神社图片马赛克修正)
+
+## golang
+* 62HexDecode.go (完善的62进制转换)
+* list.go (粗略模仿javascript的Array方法)
