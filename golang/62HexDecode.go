@@ -29,13 +29,14 @@ func Base10ToBase62(number int64) string {
 		result = append(result, base[number%62])
 		number = int64(number / 62)
 	}
-	return reverseString(result)
+	return ReverseString(result)
 }
 
-func reverseString(item []byte) string {
-	tail := len(item) - 1
-	for i, l := 0, len(item)/2; i < l; i++ {
-		item[i], item[tail-i] = item[tail-i], item[i]
+// ReverseString 反转字符串
+func ReverseString(strArr []byte) string {
+	tail := len(strArr) - 1
+	for i, l := 0, len(strArr)/2; i < l; i++ {
+		strArr[i], strArr[tail-i] = strArr[tail-i], strArr[i]
 	}
-	return string(item)
+	return string(strArr)
 }
