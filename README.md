@@ -18,5 +18,8 @@
 * jyss.js(寂月神社图片马赛克修正)
 
 ## golang
-* 62HexDecode.go (完善的62进制转换)
+* 62Hex (62进制转换)
+* matchLuhn (银行卡号校验算法)
+* ScrollingText (滚动文字-> codewar上的题目)
+* player (许式伟的<Go语言编程> 中播放器)
 * list.go (粗略模仿javascript的Array方法)
