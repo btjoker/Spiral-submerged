@@ -16,6 +16,8 @@
 * hacg.js(hacg度盘跳转和填写js书签)
 * spy.js(A岛大侦探弱鸡版)
 * jyss.js(寂月神社图片马赛克修正)
+* adnmbBlock(a岛屏蔽时间线出现板块或者串号)
+* shortcutButton.js(我的钢铁网快捷按钮)
 
 ## golang
 * 62Hex (62进制转换)
