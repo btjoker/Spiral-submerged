@@ -1,5 +1,7 @@
 # Spiral-submerged
 
+## 回收站desu
+
 学习过的语言练手物品收容处
 ## python
 * getproxy.py(如其名, 效率低. 有时间会修改)
@@ -18,6 +20,8 @@
 * jyss.js(寂月神社图片马赛克修正)
 * adnmbBlock(a岛屏蔽时间线出现板块或者串号)
 * shortcutButton.js(我的钢铁网快捷按钮)
+* fastGet.js(一次性获取末日资源站搜索页面磁链)
+* hash_id_get.js(匹配bt分流站, 在标题下方拼接磁链)
 
 ## golang
 * 62Hex (62进制转换)
